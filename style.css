@@ -1,0 +1,55 @@
+/* Reset style */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Common style */
+.common-btn{
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+/* Navbar style */
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+.hero-content button{
+    margin-top:px;
+}
