@@ -5,6 +5,10 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
+.italic-text{
+    font-style: italic;
+}
+
 img{
     max-width: 100%;
 }
@@ -185,6 +189,7 @@ AI Developer Match Section Style
     margin-bottom:20px;
     color:#1d4ed8;
     font-size:24px;
+    text-align: center;
 }
 
 .match-card ul{
@@ -239,19 +244,14 @@ border-radius: 10px;
     gap: 20px;
 }
 
-.footer-left{
-    font-size: 24px;
-    font-weight: 700;
-    color:1f2937;
-    text-decoration: none;
 
-}
 .footer-right{
     display: flex;
     align-items: center;
     gap: 25px;
     color: #1d4ed8;
 }
+
 .footer-bottom{
     text-align: center;
     font-size: 15px;
