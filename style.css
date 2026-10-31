@@ -179,7 +179,6 @@ AI Developer Match Section Style
     background:#ffffff;
     border:1px solid #d1d5db;
     border-radius:10px;
-    padding:30px;
 }
 
 .match-card h3{
@@ -197,7 +196,7 @@ AI Developer Match Section Style
     color:#374151;
 }
 
-/* Footer */
+/* AI Footer */
 
 .match-footer{
     margin-top:50px;
@@ -225,4 +224,36 @@ AI Developer Match Section Style
     padding:12px 28px;
     border-radius:6px;
     font-weight:bold;
+}
+
+/* Footer Style */
+.footer{
+background-color: #fff8f3;
+padding:30px 50px ;
+border-radius: 10px;
+}
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-left{
+    font-size: 24px;
+    font-weight: 700;
+    color:1f2937;
+    text-decoration: none;
+
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #1d4ed8;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 15px;
+    color: black;
 }
