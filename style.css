@@ -48,7 +48,7 @@ ul{
     display: grid;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 .hero-content{
@@ -66,7 +66,6 @@ ul{
     margin-left: 280px;
     font-size: 25px;
     width: 230px;
-    
 
 }
 
@@ -75,21 +74,24 @@ ul{
 .speaker-heading{
     text-align: center;
     font-size: 40px;
+
 }
 .gallery{
     margin-top: 20px;
     display: grid;
-    gap: 10px;
+    gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
     "one two"
     "three four";
+    
 
 }
-.gallery img{
-    margin: 40px 20px;
+.gallery img {
+    width: 100%,
+    height: 100%;
     object-fit: cover;
-    
+    border-radius: 10px;
 }
 .gallery-1{
     grid-area: one;
@@ -105,7 +107,11 @@ ul{
 }
 
 .details{
-    padding: 24px; 
+    padding: 24px;
+}
+
+.details p{
+    margin-bottom: 8px ;
 }
 
 .details h5{
@@ -113,29 +119,110 @@ ul{
 }
 
 /* Secure Your Spot Style */
-.secure-spot{
+.secure-spot.container{
     background-color: white;
+    padding: 70px 20px;
+    gap: 20px;
+
+
+}
+.card-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-heading h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.card-heading p{
+    color:blue;
+    font-size: 16px;
+
 }
 
 .card-container{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    margin-top: 40px;
-    justify-content: space-between;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+
 }
 .card-container .card{
     background-color: #ffffff;
-    width: 200px;
-    height: 200px;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
     text-align: center;
-    padding: 25px ;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 425px;
+    gap: 10px;
+
+}
+.card h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.card hr{
+
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 15px 0;
 }
 
+
+
 .card-container .card ul{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: left;
     padding-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    gap: 5px;
 }
+.card-container .card ul li {
+margin: 5px;
+color: #555555;
+font-size: 14px;
+}
+ .card button{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #172033;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto;
+ }
+
+ .card.featured h1,
+ .card.featured p,
+ .card.featured ul li{
+    color: #ffffff ;
+ }
+ 
+ .card.featured{
+    background-color: #172033;
+    color: #ffffff;
+    border: 2px solid #1d4ed8;
+    border-radius: 8px;
+
+ }
+ .card.featured hr{
+    border-top-color: #667085;
+ }
+ .card.featured button{
+    background-color: #1d4ed8;
+    color: #ffffff;
+ }
+
+
 
 /* ===========================
 AI Developer Match Section Style
